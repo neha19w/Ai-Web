@@ -1,0 +1,7 @@
+- [ ] Update the copilot-instructions.md file as you proceed through setup
+- [ ] Create root monorepo structure ✓
+- [ ] Create frontend React application ✓
+- [ ] Create backend Node.js server ✓
+- [ ] Create VS Code workspace configuration ✓
+- [ ] Install dependencies and verify builds
+- [ ] Complete project documentation

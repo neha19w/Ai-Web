@@ -1,0 +1,26 @@
+{
+  "name": "ai-doc-assistant",
+  "version": "1.0.0",
+  "description": "AI Document Assistant - Monorepo with React frontend and Node.js backend",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces",
+    "start": "npm start --workspaces",
+    "lint": "npm run lint --workspaces",
+    "frontend": "npm run dev -w packages/frontend",
+    "backend": "npm run dev -w packages/backend",
+    "frontend:build": "npm run build -w packages/frontend",
+    "backend:build": "npm run build -w packages/backend"
+  },
+  "keywords": [
+    "ai",
+    "document",
+    "assistant"
+  ],
+  "author": "",
+  "license": "MIT"
+}
