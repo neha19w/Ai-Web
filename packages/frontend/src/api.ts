@@ -1,3 +1,4 @@
+/// <reference types="vite/client" />
 // frontend/src/api.ts
 
 export type Role = "user" | "assistant" | "system";
@@ -14,7 +15,7 @@ export interface ChatStreamParams {
   onError?: (error: string) => void;
 }
 
-const BASE_URL = "http://localhost:8080/api";
+const BASE_URL = import.meta.env.VITE_API_URL ?? "http://localhost:8080/api";
 
 /**
  * Streams tokens from backend SSE endpoint: POST /api/chat
